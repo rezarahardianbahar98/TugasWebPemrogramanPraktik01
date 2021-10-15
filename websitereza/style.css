@@ -1,0 +1,79 @@
+    body{
+        background: linear-gradient( #3051F1 , #C92BB7 );
+    height: 500px;
+    }
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.toggle-sidebar {
+  border: none;
+  background-color: #3097af;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  position: left;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+.sidebar {
+  height: 100vh;
+  width: 200px;
+  list-style: none;
+  background-color: linear-gradient( #3051F1 , #C92BB7 );
+  position: fixed;
+  left: -200px;
+  transition: 0.5s;
+}
+
+.sidebar-open{
+    left: 0;
+}
+
+.sidebar li a {
+  display: block;
+  padding: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid silver;
+  transition: background-color 0.5s;
+}
+.sidebar li a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.titleprofile{
+    margin:auto;
+    color:#000000;
+    font-family: Times New Roman;
+    font-size:30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.dataprofile{
+    text-align: center;
+    margin:auto;
+    color:#000000;
+    font-family: Times New Roman;
+    font-size:30px;
+    padding: 10px;
+
+}
+
+
+
+
